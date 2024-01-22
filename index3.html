@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+  <div class="page">
+    <div class="background5">
+      <div class = "hat" id="hat">
+        <h1 class="logotxt">SwiftBox</h1>
+        <div><a href="index.html#hat"><img src="img/logo.png" alt = logo class = "logo"></a></div>
+        <div>
+          <ul>
+              <div>
+              <li><a class="link" href="#">Стать партнером</a></li>
+              <li><a class="link" href="index.html#employ">Стать курьером</a></li>
+          </ul>
+          <button class="bluebutton bluebuttonback" onclick ="document.location='index3.html'">
+            Заказать доставку
+        </button>
+            </div>
+        </div>
+        <h1 class = "hback2">Оформление заказа</h1>
+        <div class = "box1_oform">
+          <div class = "box1_in_oform">
+            <h1>Выберите <span class = "blue">способ</span> доставки</h1>
+            <div class = "selectbox selectable" onclick="selectElement(this)" data-multiplier="1.7" onmouseover="changeCursor(this, false)" onmouseout="restoreCursor(this)">
+              <img src="img/walk.png" alt="walk_coirier">
+            <p class = "selecttext">Пешком</p>
+            </div>
+            <div class = "selectbox2 selectable" onclick="selectElement(this)" data-multiplier="2.9" onmouseover="changeCursor(this, false)" onmouseout="restoreCursor(this)">
+              <img src="img/car.png" alt="car_courier">
+              <p class = "selecttext2">На автомобиле</p>
+            </div>
+            <div class = "selectbox3 selectable" onclick="selectElement(this)" data-multiplier="4.0" onmouseover="changeCursor(this, false)" onmouseout="restoreCursor(this)">
+              <img src="img/gruz.png" alt = "gruz_courier">
+              <p class="selecttext3">Грузовым</p>
+            </div>
+          </div>
+          <div class = "box1_in_oform2">
+            <h6 class = "box1_in_oform_h6">Укажите <span class="blue">расстояние</span> между объектами</h6>
+              <div class="into_box1_oform">
+                <input type="text" class="boxinputField" placeholder="Расстояние(в км)">
+              </div>
+        </div>
+        <div class = "box1_in_oform3">
+          <h6 class="box3_in_oform_h6"><span class = "blue">Что</span> везём?</h6>
+          <div class = "into_box3_oform">
+            <input type="text" class="boxinputField" placeholder="Введите вид товара">
+          </div>
+        </div>
+        <div class = "box2_oform">
+          <div class = "box2_in_oform">
+            <h6 class="box2_h6">Выберите <span class="blue">способ</span> оплаты</h6>
+            <div class = "selectbox_oform selectable" onclick="selectElement(this)" onmouseover="changeCursor(this, false)" onmouseout="restoreCursor(this)">
+            <p class="selecttxt2_box2"><span class="red">Наличными</span> курьеру</p>
+          </div>
+          <div class = "selectbox_oform2 selectable" onclick="selectElement(this)" onmouseover="changeCursor(this, false)" onmouseout="restoreCursor(this)">
+            <p class="selecttxt2_box2"><span class="red">Картой</span> онлайн</p>
+          </div>
+          </div>
+          <div class = "box3_in_oform">
+          <h6 class = "box3_in_oform_h6">Итог</h6>
+          <div class = "summbox2_oform"  ><p class = "finishsumm" id="totalAmount"></p></div>
+          <button class = "paybuton" id = "payButton">Оплатить</button>
+          </div>
+        </div>
+    </div>
+
+   </div>
+   <div class = "undo">
+    <img src="img/logo.png" alt="logo_undo">
+    <h1>SwiftBox</h1>
+    <h6 class="undo_cont">Контакты</h6>
+    <div class = "undo_contact_contain">
+      <p><span class = "blue">+7 (930) 342-57-12</span></p>
+      <p><span class = "blue">SwiftBox@gmail.com<br> </span></p>
+      <p ><span class = "blue">г. Москва, ул. Лиственничная аллея, 2А</span></p> 
+    </div>
+    <h6 class="undo_otz"><a href="index2.html">Отзывы</a></h6>
+    <div class = "undo_otz_contain">
+    <p><a href="index2.html#partn"><span class = "blue">Партнёров</span></a></p>
+    <p><a href="index2.html#client"><span class = "blue">Клиентов</span></a></p>
+    </div>
+    <h6 class="undo_about">О нас</h6>
+    <div class = "undo_about_contain">
+      <p><span class = "blue">https://vk.com/SwBinf</span></p>
+      <p><span class = "blue"> 2023—2024<br>ООО «SW BOX»<br>ОГРН 1237213748348<br>ИНН 7843894237</span></p>
+
+    </div>
+  </div>
+      
+      <script src="js.js"></script>
+      </body> 
+      </html>

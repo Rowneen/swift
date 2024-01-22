@@ -1,0 +1,1710 @@
+@font-face {
+    font-family: Cera Pro-Black; 
+    src: url(fonts/CeraPro-Black.ttf);
+   }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: #FFFCB6;
+    
+}
+.background1{
+    background-color: #FFE600;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 790px;
+    background-size: cover;
+    position: relative;
+}
+.background3{
+    background-color: #FFE600;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1230px;
+    background-size: cover;
+    position: relative;
+}
+.background4{
+    background-color: #FFF847;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    position: relative;
+}
+.background5{
+    background-color: #FFE600;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 920px;
+    background-size: cover;
+    position: relative;
+}
+/* .side-panel {
+    width: 5000px;
+    height: 100vh; 
+    background-color: #F8EE10; 
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.left-panel {
+    left: 0;
+}
+
+.right-panel {
+    left: 1380px;
+} */
+.page{
+    width: 1280px;
+    margin: auto;
+    transform: scale(0.8);
+    transform-origin: top center;
+}
+.hat{
+    position: fixed;
+  width: 1280px;
+  height: 110px;
+  top: 0;
+  left: 0;
+  background-color: #efefef;
+  box-shadow: 0px 4px 4px #00000040;
+  position: relative;
+}
+.link {
+    color: #0094e7;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Cera Pro-Black", Helvetica;
+}
+.link2 {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Cera Pro-Black", Helvetica;
+}
+.hat li{
+    display: inline;
+    margin: 18px;
+}
+.hat li:hover{
+    text-decoration: underline;
+    color: #47BDFF;
+    font-size: 16px;
+    font-family: "Cera Pro-Black", Helvetica;
+}
+.hat ul{
+    position: absolute;
+    top: 30px;
+    left: 678px;
+}
+.background2{
+    background-color: #FFF847;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 790px;
+    background-size: cover;
+    position: relative;
+}
+.background6{
+    background-color: #FFE600;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1450px;
+    background-size: cover;
+    position: relative;
+}
+.bluebutton{
+    width: 176px;
+    height: 40px;
+    position: absolute;
+    top: 35px;
+    left: 1065px;
+    border-width: 0px;
+    font-weight: bolder;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Cera Pro-Black", Helvetica;
+    border-radius: 20px;
+}
+.bluebuttonback{
+    background-color: #0094e7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 176px;
+    height: 40px; 
+}
+.bluebutton2{
+    width: 190px;
+    height: 40px;
+    position: absolute;
+    top: 35px;
+    left: 1065px;
+    border-width: 0px;
+    font-weight: bolder;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Cera Pro-Black", Helvetica;
+    border-radius: 20px;
+}
+.bluebuttonback2{
+    background-color: #0094e7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 40px; 
+}
+.a2 {
+    width: 176px;
+    height: 40px;
+    border-radius: 20px;
+    background: #0094E7;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Cera Pro-Black", Helvetica;
+}
+
+.bluebuttonback:hover {
+    background-color: #47BDFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 176px;
+    height: 40px;
+    cursor: pointer;}
+.bluebuttonback2:hover {
+        background-color: #47BDFF;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 190px;
+        height: 40px;
+        cursor: pointer;}
+.box1{
+    top: 235px;
+    right: 75px;
+    width: 500px;
+    height: 360px;
+    border-radius: 58px;
+    background: #FFF;
+    position: absolute;
+    border:#DE604A solid 3px;
+}
+.p1{
+    color: #000000;
+    font-size: 40px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-top: 10px;
+    margin-left: 43px;
+    position: absolute;
+    }
+.box1 h3{
+    color: #000000;
+    font-size: 32px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-top: 20px;
+    position: absolute;
+    text-align: center;
+    }
+.grey_sq1{
+    width: 329px;
+    height: 49px;
+    border-radius: 40px;
+    background: #E9E9E9;
+    margin-top: 80px;
+    margin-left: 51px;
+}
+.greytxt{
+    color: #D9D9D9;
+    font-size: 25px;
+    font-family: "Cera Pro-Black", Helvetica;
+    padding-top: 7.5px;
+    padding-left: 15px;
+}
+.grey_sq2{
+    width: 329px;
+    height: 49px;
+    border-radius: 40px;
+    background: #E9E9E9;
+    margin-top: 25px;
+    margin-left: 51px;
+}
+.inputField {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: "Cera Pro-Black", Helvetica;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background: transparent; 
+    color: #000000;
+  }
+.inputField::placeholder {
+    color: #D9D9D9;
+  }
+
+.insideText {
+    font-family: "Cera Pro-Black", Helvetica;
+    color: #0094E7;
+    font-size: 18px;
+    margin-top: -6px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.insideText_sq3 {
+    font-family: "Cera Pro-Black", Helvetica;
+    color: #0094E7;
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+
+.grey_sq3 {
+    width: 120px;
+    height: 90px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    margin-top: 155px; 
+    margin-left: 35px;
+    float: left;
+    border:#0094E7 solid 1px;
+}
+
+
+.grey_sq4 {
+    width: 162px;
+    height:90px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    margin-top: 155px; 
+    margin-left: 13px;
+    float: left;
+    border:#0094E7 solid 1px;
+}
+
+
+.grey_sq5 {
+    width: 120px;
+    height: 90px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    margin-top: 155px; 
+    margin-left: 13px;
+    float: left;
+    border:#0094E7 solid 1px;
+}
+.grey_sq3 img{
+    width: 36px;
+    height: 52px;
+    margin-top: 7px;
+    margin-left: 42px;
+    }
+.grey_sq4 img{
+width: 85px;
+height: 57px;
+margin-top: 7px;
+margin-left: 42px;
+}
+.grey_sq5 img{
+    width: 75px;
+    height: 54px;
+    margin-top: 7px;
+    margin-left: 22px;
+    }
+.calculateButton {
+width: 375px;
+height: 60px;
+border-radius: 40px;
+background-color: #0094E7;
+border: none;
+outline: none;
+color: #fff;
+font-size: 32px;
+font-family: "Cera Pro-Black", Helvetica;
+margin-top: 30px;
+margin-left: 60px;
+}
+.calculateButton:hover {
+background-color: #007bc2;;
+background-repeat: no-repeat;
+background-size: cover;
+width: 375px;
+height: 60px;
+cursor: pointer;
+border: 2px solid #00498D;}
+.selected {
+    outline: 2px solid #0075FF;
+}
+
+.selectable:hover {
+    cursor: pointer;
+}
+
+.selectable {
+    position: relative;
+}
+
+.selectable.selected::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 0 2px #0075FF;
+    border-radius: 10px; 
+    pointer-events: none; 
+    height: 90;
+    width: 90;
+}
+.selectable p {
+    pointer-events: none;
+}
+
+
+.img2 {
+    position: absolute;
+    top: 370px; 
+    left: 50px; 
+}
+.courierText {
+    position: absolute;
+    margin-top: 155px;
+    left: 50px;
+    color: #000000;
+    font-size: 48px;
+    line-height: 55px; 
+    text-align: center;
+    font-family: "Cera Pro-Black", Helvetica;
+}
+
+.highlightedText {
+    color: #DE604A;
+}
+
+.secondLine {
+    color: #DE604A;
+}
+.highlightedText2{
+    color: #0094E7;
+}
+.logText {
+    position: absolute;
+    margin-top: 300px;
+    left: 125px;
+    color: #000000;
+    font-size: 32px;
+    line-height: 35px; 
+    text-align: center;
+    font-family: "Cera Pro-Black", Helvetica;
+}
+.hback2{
+    margin-left: 48px;
+    font-family: "Cera Pro-Black", Helvetica;
+    position: absolute;
+    color: #000000;
+    font-size: 55px;
+    margin-top: 40px;
+    line-height: 55px; 
+    text-align: left;
+
+}
+.cont2 {
+    width: 1165px;
+    height: 535px;
+    margin-left: 60px;
+    margin-top: 200px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box2 {
+    width: 220px;
+    height: 250px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-bottom: 34px;
+    margin-left: 95px;
+    box-sizing: border-box;
+}
+.box2_box {
+    width: 220px;
+    height: 250px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-bottom: 34px;
+    margin-left: 95px;
+    box-sizing: border-box;
+}
+.box_child {
+    width: 220px;
+    height: 250px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-bottom: 34px;
+    margin-left: 95px;
+    box-sizing: border-box;
+}
+.box2_1{
+    width: 220px;
+    height: 250px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-left: 0px;
+    margin-bottom: 34px;
+    box-sizing: border-box;
+}
+.box2_11{
+    width: 220px;
+    height: 250px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-left: 0px;
+    margin-bottom: 34px;
+    box-sizing: border-box;
+}
+.box2 p {
+    text-align: center;
+    margin: 0;
+    color: #0094E7;
+    font-size: 32px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-top: 10px;
+    position: flex;
+
+}
+.box2_box p {
+    text-align: center;
+    margin: 0;
+    color: #0094E7;
+    font-size: 32px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-top: 10px;
+    position: flex;
+}
+.box2_1 p {
+    text-align: center;
+    margin: 0;
+    color: #0094E7;
+    font-size: 32px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-top: 10px;
+    position: flex;
+
+}
+.box2_11 p {
+    text-align: center;
+    margin: 0;
+    color: #0094E7;
+    font-size: 32px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-top: 10px;
+    position: flex;
+
+}
+.box_child p {
+    text-align: center; 
+    margin: 0;
+    color: #0094E7;
+    font-size: 32px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-bottom: 13px;
+    position: flex;
+
+}
+.box2_1 img{
+    width: 230px;
+    height: 190px;
+}
+.box2 img{
+    width: 230px;
+    height: 190px;
+}
+.box_child img {
+    width: 135 px;
+    height: 155px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    position: flex;
+}
+.box2_11 img{
+    margin-left: 20px;
+    width: 180px;
+    height: 190px;
+}
+.box2_box img{
+    margin-left: 20px;
+    width: 190px;
+    height: 160px;
+}
+
+.cont3 {
+    width: 1185px;
+    height: 245px;
+    margin-left: 45px;
+    margin-top: 170px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box3_1{
+    width: 230px;
+    height: 230px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin-left: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3 {
+    width: 230px;
+    height: 230px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin-left: 85px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3_dns {
+    width: 230px;
+    height: 230px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin-left: 85px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3_1 img{
+    width: 215px;
+    height: 215px;
+}
+.box3 img{
+    width: 215px;
+    height: 215px;
+    border-radius: 100%;
+}
+.box3_dns img{
+    width: 230px;
+    height: 230px;
+}
+.cont_vkus{
+    width: 710px;
+    height: 120px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    margin-top: 35px;
+    margin-left: 227px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont_vkus img{
+    width: 637px;
+    height: 80px;
+}
+.button3 {
+    width: 495px;
+    height: 100px;
+    border-radius: 40px;
+    background-color: #0094E7;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-top: 73px;
+    margin-left: 358px;
+    position: flex;
+}
+.button3:hover {
+background-color: #007bc2;
+background-repeat: no-repeat;
+background-size: cover;
+width: 495px;
+height: 100px;
+cursor: pointer;
+border: 2px solid #00498D;
+position: flex;}
+.cariertext {
+    color: #DE604A;
+}
+.hback3{
+    margin-left: 48px;
+    font-family: "Cera Pro-Black", Helvetica;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    margin-top: 100px;
+    line-height: 55px;
+    text-align: left;
+}
+.K80{
+    color: #0094E7;
+}
+.box_emp{
+    margin-left: 47px;
+    margin-top: 180px;
+    position: absolute;
+    width: 500px;
+    height: 561px;
+    border-radius: 60px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+}
+.box_emp h6{
+    margin-left: 66px;
+    font-family: "Cera Pro-Black", Helvetica;
+    position: absolute;
+    color: #0094E7  ;
+    font-size: 40px;
+    margin-top: 18px;
+    line-height: 33px; 
+    text-align: center; 
+}
+.h6_next{
+    color: #94C3DE ;
+    font-size: 20px;
+}
+.box_emp p{
+    margin-left: 55px;
+    font-family: "Cera Pro-Black", Helvetica;
+    position: absolute;
+    color: #D9D9D9 ;
+    font-size: 14px;
+    line-height: 18px; 
+    text-align: left;
+    margin-top: 20px;
+}
+.box_emp_p_next{
+    color: #94C3DE;
+}
+.box_emp_sq1{
+    width: 330px;
+    height: 50px;
+    border-radius: 40px;
+    background: #E9E9E9;
+    margin-top: 105px;
+    margin-left: 75px;
+    position: flex;
+    box-sizing: border-box;
+
+}
+.box_emp_sq2{
+    width: 330px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #E9E9E9;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 75px;
+    position: flex;
+    box-sizing: border-box;
+
+}
+input[type="checkbox"] {
+    display: none;
+    position: flex;
+}
+input[type="checkbox"] + label {
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    background-color: #E9E9E9;
+    margin-left: 31px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 22px;
+}
+input[type="checkbox"]:checked + label {
+    background-color: #0094E7;
+}
+input[type="checkbox"]:not(:checked) + label::before {
+    content: '\2713'; 
+    color: #D9D9D9; 
+    font-size: 14px;
+    position: absolute;
+    left: 3px;
+    top: -1px;
+}
+
+
+input[type="checkbox"]:checked + label::before {
+    content: '\2713'; 
+    color: #fff; 
+    font-size: 14px;
+    position: absolute;
+    left: 3px;
+    top: -1px;
+}
+.workbutton {
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #0094E7;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 32px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-top: 78px;
+    margin-left: 75px;
+    position: flex;
+}
+.workbutton:hover {
+background-color: #007bc2;
+background-repeat: no-repeat;
+background-size: cover;
+width: 350px;
+height: 60px;
+cursor: pointer;
+border: 2px solid #00498D;
+position: flex;}
+#agreementCheckbox.error {
+    box-shadow: 0 0 5px red;
+}
+.success-message {
+    color: #4CAF50; 
+    font-size: 20px;
+    font-family: "Cera Pro-Black", Helvetica;
+    margin-top: 10px;
+}
+.cont4{
+    width: 550px;
+    height: 275px;
+    margin-left: 707px;
+    margin-top: 200px;
+    position: absolute;
+}
+.cont4 h6{
+    margin-left: 30px;
+    font-family: "Cera Pro-Black", Helvetica;
+    position: absolute;
+    color: #000000;
+    font-size: 48px;
+    margin-top: 0px;
+    text-align: center;
+}
+.red{
+    color: #DE604A;
+}
+.blue{
+color: #0094E7;
+
+}
+.cont4 ul{
+    margin-top: 80px;
+    list-style-type: none;
+}
+.cont4 li{  
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-family: "Cera Pro Black", Helvetica;
+}
+.cont4 li:before {
+    content: "\2022"; 
+    font-size: 30px; 
+    color: #000000; 
+    margin-right: 15px; 
+   }
+.join{    
+    margin-top: 560px;
+    margin-left: 680px;
+    font-size: 55px;
+    font-family: "Cera Pro Black", Helvetica;
+    color:#0094E7;
+    position: absolute;
+    text-align: center;}
+.success {
+    background-color: green;
+    color: white;
+}
+.cont2 .box {
+    position: relative;
+    overflow: hidden; 
+}
+
+.box::before {
+    content: attr(data-content);
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 220px;
+    height: 220px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    padding: 14px 0 0 0;
+    font-size: 24px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #0094E7;
+    z-index: 1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+    text-align: center;
+}
+
+.cont2 .box:hover::before {
+    top: 0;
+    opacity: 1;
+}
+.logo{
+    width: 60px;
+    height: 90px;
+    margin-top: 8px;
+    margin-left: 45px;
+    position: absolute;
+}
+.logotxt{
+    font-size: 32px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #0094E7;
+    margin-left: 105px;
+    margin-top: 60px;
+    position: absolute;
+}
+.undo{
+    width: 1280px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    background-color: #efefef;
+    position: relative;
+}
+.undo img{
+    width: 135px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.undo h1{
+    font-size: 55px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #0094E7;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.undo_cont{
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -180px;
+    position: flex;
+}
+.undo_otz{
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -180px;
+    position: flex;
+}
+.undo_about{
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    position: absolute;
+    margin-left: 1010px;
+    margin-top: -180px;
+    position: flex;
+}
+.undo a{
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    position: absolute;
+    text-decoration: none;
+}
+.undo a:hover{
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #0094E7;
+    position: absolute;
+}
+.undo_contact_contain{
+    width: 320px;
+    height: 190px;
+    margin-left: 295px;
+    margin-top: -120px;
+    position: absolute;
+    text-align: center;
+}
+.undo_contact_contain p{
+    font-size: 28px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    position: flex;
+    display: inline;
+    margin-top: 5px;
+}
+.undo_otz_contain {
+    width: 230px;
+    height: 185px;
+    margin-left: 670px;
+    margin-top: -120px;
+    position: absolute;
+    text-align: center;
+}
+
+.undo_otz_contain p,
+.undo_otz_contain a {
+    font-size: 28px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 5px;
+    display: block;
+    position: relative;
+}
+
+.undo_otz_contain a:hover {
+    font-size: 28px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 5px;
+    display: block;
+    position: relative;
+    text-decoration: underline;
+    
+}
+.undo_about_contain {
+    width: 330px;
+    height: 200px;
+    margin-left: 910px;
+    margin-top: -120px;
+    position: absolute;
+    text-align: center;
+}
+.undo_about_contain p{
+    font-size: 28px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    position: flex;
+    display: inline;
+    margin-top: 40px;
+}
+.box_otz_in2{
+    width: 1225px;
+    height: 220px;
+    border-radius: 58px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    margin-top: 145px;
+    margin-left: 25px;
+    position: absolute;
+}
+.box_otz_in2 h2{
+    font-size: 32px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 27px;
+    position: flex;
+}
+.box_otz_in2 p{
+    font-size: 24px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: -17px;
+    margin-left: 22px;
+    position: flex;
+}
+.box2_otz_in2{
+    width: 1225px;
+    height: 200px;
+    border-radius: 58px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    margin-top: 410px;
+    margin-left: 25px;
+    position: absolute;
+}
+.box2_otz_in2 h2{
+    font-size: 32px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 27px;
+    position: flex;
+}
+.box2_otz_in2 p{
+    font-size: 24px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: -17px;
+    margin-left: 22px;
+    position: flex;
+}
+.box3_otz_in2{
+    width: 1225px;
+    height: 200px;
+    border-radius: 58px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    margin-top: 650px;
+    margin-left: 25px;
+    position: absolute;
+}
+.box3_otz_in2 h2{
+    font-size: 32px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 27px;
+    position: flex;
+}
+.box3_otz_in2 p{
+    font-size: 24px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: -17px;
+    margin-left: 22px;
+    position: flex;
+}
+.box4_otz_in2{
+    width: 1225px;
+    height: 190px;
+    border-radius: 58px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    margin-top: 895px;
+    margin-left: 25px;
+    position: absolute;
+}
+.box4_otz_in2 h2{
+    font-size: 32px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 27px;
+    position: flex;
+}
+.box4_otz_in2 p{
+    font-size: 24px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: -17px;
+    margin-left: 22px;
+    position: flex;
+}
+.box5_otz_in2{
+    width: 1225px;
+    height: 250px;
+    border-radius: 58px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    margin-top: 140px;
+    margin-left: 25px;
+    position: absolute;
+}
+.box5_otz_in2 h2{
+    font-size: 32px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 27px;
+    position: flex;
+}
+.box5_otz_in2 p{
+    font-size: 24px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: -17px;
+    margin-left: 22px;
+    position: flex;
+}
+.box6_otz_in2{
+    width: 1225px;
+    height: 250px;
+    border-radius: 58px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    margin-top: 428px;
+    margin-left: 25px;
+    position: absolute;
+}
+.box6_otz_in2 h2{
+    font-size: 32px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 27px;
+    position: flex;
+}
+.box6_otz_in2 p{
+    font-size: 24px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: -17px;
+    margin-left: 22px;
+    position: flex;
+}
+.box7_otz_in2{
+    width: 1225px;
+    height: 222px;
+    border-radius: 58px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    margin-top: 716px;
+    margin-left: 25px;
+    position: absolute;
+}
+.box7_otz_in2 h2{
+    font-size: 32px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 27px;
+    position: flex;
+}
+.box7_otz_in2 p{
+    font-size: 24px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: -17px;
+    margin-left: 22px;
+    position: flex;
+}
+.box1_oform{
+    left: 50px;
+    top: 240px;
+    position: absolute;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border: #DE604A solid 2px;
+    width: 680px;
+    height: 630px;
+    border-radius: 60px;
+}
+.box1_in_oform{
+    margin-left: 16px;
+    margin-top: 22px;
+    position: flex;
+    background-color: #D9D9D9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    width: 645px;
+    height: 217px;
+    border-radius: 50px;
+}
+
+.box1_in_oform h1{    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 8px;
+    margin-left: 45px;
+    position: flex;}
+    .selectbox{
+        margin-left:22px;
+        margin-top:-10px;
+        width: 156px;
+        height: 117px;
+        position: absolute;
+        background-color: #E9E9E9;
+        background-repeat: no-repeat;
+        border: #0094E7 solid 1px;
+        border-radius: 10px;
+    }
+    .selecttext{
+        font-family: "Cera Pro-Black", Helvetica;
+        color: #0094E7;
+        font-size: 18px;
+        margin-top: 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+}
+.selectbox img{
+    width: 46px;
+    height: 68px;
+    margin-top: 10px;
+    margin-left: 55px
+}
+.selectbox2{
+    margin-left:222px;
+    margin-top:-10px;
+    width: 202px;
+    height: 117px;
+    position: absolute;
+    background-color: #E9E9E9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    border-radius: 10px;
+}
+.selectbox2 img{
+    width: 105px;
+    height: 74px;
+    margin-top: 10px;
+    margin-left: 47px
+}
+.selecttext2{
+    font-family: "Cera Pro-Black", Helvetica;
+    color: #0094E7;
+    font-size: 18px;
+    margin-top: -1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.selectbox3{
+    margin-left:470px;
+    margin-top:-10px;
+    width: 156px;
+    height: 117px;
+    position: absolute;
+    background-color: #E9E9E9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    border-radius: 10px;
+}
+.selectbox3 img{
+    width: 98px;
+    height: 69px;
+    margin-top: 10px;
+    margin-left: 30px
+}
+.selecttext3{
+    font-family: "Cera Pro-Black", Helvetica;
+    color: #0094E7;
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.box1_in_oform_h6{
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+.box1_in_oform2 {
+    margin-left: 16px;
+    margin-top: 16px;
+    position: flex; /* Оставлено position: flex; */
+    background-color: #D9D9D9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    width: 645px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.box1_in_bord {
+    width: 290px;
+    height: 116px;
+    margin-top: -85px;
+    margin-left: 19px;
+    border-radius: 30px;
+    border: #0094E7 solid 3px;
+    background-color: #D9D9D9;
+}
+.box1_in_bord2 {
+    width: 290px;
+    height: 116px;
+    margin-top: -122px;
+    margin-left: 335px;
+    border-radius: 30px;
+    border: #0094E7 solid 3px;
+    background-color: #D9D9D9;
+}
+.box1_in_oform_p{
+    font-size: 25px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 3px;
+    margin-left: 24px;
+}
+.into_box1_oform{
+    margin-top: -75px;
+    margin-left: 85px;
+    background-color: #E9E9E9;
+    border-radius: 40px;
+    width: 480px;
+    height: 50px;
+    border: #000000 solid 1px;
+}
+.into_box_txt{
+    color: #D9D9D9;
+    font-size: 25px;
+    font-family: "Cera Pro-Black", Helvetica;
+    padding-top: 7.5px;
+    padding-left: 15px;
+}
+
+.boxinputField {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: "Cera Pro-Black", Helvetica;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background: transparent; 
+    color: #000000;
+  }
+.boxinputField::placeholder {
+    color: #CBCBCB;
+  }
+  .box1_in_oform3 {
+    margin-left: 16px;
+    margin-top: 16px;
+    position: flex;
+    background-color: #D9D9D9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    width: 645px;
+    height: 134px;
+    border-radius: 50px;
+}
+.box3_in_oform_h6{
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 2px;
+    margin-left: 195px;
+}
+.into_box3_oform{
+    margin-top: -85px;
+    margin-left: 60px;
+    background-color: #E9E9E9;
+    border-radius: 40px;
+    width: 523px;
+    height: 50px;
+    border: #000000 solid 1px;
+}
+.box2_oform{
+    left: 715px;
+    top: 0px;
+    position: absolute;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border: #DE604A solid 2px;
+    width: 484px;
+    height: 630px;
+    border-radius: 60px;
+}
+.box2_in_oform{
+    margin-left: 21px;
+    margin-top: 21px;
+    position: absolute;
+    background-color: #D9D9D9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    width: 440px;
+    height: 274px;
+    border-radius: 60px;
+}
+.box2_h6{
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000000;
+    margin-top: 12px;
+    margin-left: 0px;
+    text-align: center;
+}
+.selectbox_oform{
+    margin-left:30px;
+    margin-top: -75px;
+    width: 160px;
+    height: 117px;
+    position: absolute;
+    background-color: #E9E9E9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.selecttxt2_box2{
+    font-family: "Cera Pro-Black", Helvetica;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    display: absolute;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.selectbox_oform2{
+    margin-left:255px;
+    margin-top: -75px;
+    width: 160px;
+    height: 117px;
+    position: absolute;
+    background-color: #E9E9E9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.box3_in_oform{
+    margin-left: 21px;
+    margin-top: 315px;
+    position: absolute;
+    background-color: #D9D9D9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    width: 440px;
+    height: 274px;
+    border-radius: 60px;
+}
+.box3_in_oform_h6{
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #0094E7;
+    margin-top: 12px;
+    margin-left: 0px;
+    text-align: center;
+}
+.summbox2_oform{
+    margin-left: 60px;
+    margin-top: -70px;
+    width: 315px;
+    height: 72px;
+    position: absolute;
+    background-color: #E9E9E9;
+    background-repeat: no-repeat;
+    border: #000000 solid 1px;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.paybuton_p{    
+    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000;
+    margin-top: 13px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+  .paybuton{    
+    margin-left: 95px;
+    margin-top: 20px;
+    width: 242px;
+    height: 80px;
+    position: absolute;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    border-radius: 80px;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Cera Pro Black", Helvetica;
+    font-size: 40px;
+}
+.finishsumm{    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000;
+    margin-top: 13px;
+    margin-left: 0px;
+    text-align: center;
+}
+.success_pay{    background-color: #4CAF50; 
+}
+.p_for_4_1{    font-size: 40px;
+    font-family: "Cera Pro Black", Helvetica;
+    color: #000;
+    margin-top: 170px;
+    margin-left: 50px;
+    text-align: left;}
+    .p_for_4_2{    font-size: 40px;
+        font-family: "Cera Pro Black", Helvetica;
+        color: #000;
+        margin-top: -15px;
+        margin-left: 50px;
+        text-align: left;}
+        .box_partn{
+            margin-left: 215px;
+            margin-top: 35px;
+            position: absolute;
+            width: 850px;
+            height: 737px;
+            border-radius: 60px;
+            background-color: #ffffff;
+            background-repeat: no-repeat;
+        }
+        .box_partn_h6{
+            margin-left: 0px;
+            font-family: "Cera Pro-Black", Helvetica;
+            position: absolute;
+            color: #000000  ;
+            font-size: 40px;
+            margin-top: 25px;
+            line-height: 33px; 
+            text-align: center; 
+        }
+        .box_partn_p{
+            margin-left: 55px;
+            font-family: "Cera Pro-Black", Helvetica;
+            position: absolute;
+            color: #D9D9D9 ;
+            font-size: 14px;
+            line-height: 18px; 
+            text-align: left;
+            margin-top: 20px;
+        }
+        .box_emp_p_next{
+            color: #94C3DE;
+        }
+        .box_partn_sq1{
+            width: 330px;
+            height: 50px;
+            border-radius: 40px;
+            background: #E9E9E9;
+            margin-top: 105px;
+            margin-left: 75px;
+            position: flex;
+            box-sizing: border-box;
+        
+        }
+        .box_emp_sq2{
+            width: 330px;
+            height: 50px;
+            border-radius: 40px;
+            background-color: #E9E9E9;
+            background-repeat: no-repeat;
+            margin-top: 30px;
+            margin-left: 75px;
+            position: flex;
+            box-sizing: border-box;
+        
+        }
+        input[type="checkbox"] {
+            display: none;
+            position: flex;
+        }
+        input[type="checkbox"] + label {
+            display: inline-block;
+            width: 18px;
+            height: 16px;
+            background-color: #E9E9E9;
+            margin-left: 31px;
+            cursor: pointer;
+            position: absolute;
+            margin-top: 22px;
+        }
+        input[type="checkbox"]:checked + label {
+            background-color: #0094E7;
+        }
+        input[type="checkbox"]:not(:checked) + label::before {
+            content: '\2713'; 
+            color: #D9D9D9; 
+            font-size: 14px;
+            position: absolute;
+            left: 3px;
+            top: -1px;
+        }
+        
+        
+        input[type="checkbox"]:checked + label::before {
+            content: '\2713'; 
+            color: #fff; 
+            font-size: 14px;
+            position: absolute;
+            left: 3px;
+            top: -1px;
+        }
+        .partnbutton {
+            width: 350px;
+            height: 60px;
+            border-radius: 40px;
+            background-color: #0094E7;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-size: 32px;
+            font-family: "Cera Pro-Black", Helvetica;
+            margin-top: 78px;
+            margin-left: 75px;
+            position: flex;
+        }
+        .partnbutton:hover {
+        background-color: #007bc2;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 60px;
+        cursor: pointer;
+        border: 2px solid #00498D;
+        position: flex;}
+        #agreementCheckbox.error {
+            box-shadow: 0 0 5px red;
+        }
+        .success-message {
+            color: #4CAF50; 
+            font-size: 20px;
+            font-family: "Cera Pro-Black", Helvetica;
+            margin-top: 10px;
+        }
+/*
+
+.box1_in_oform3{
+    margin-left: 16px;
+    margin-top: 470px;
+    position: absolute  ;
+    background-color: #D9D9D9;
+    background-repeat: no-repeat;
+    border: #0094E7 solid 1px;
+    width: 645px;
+    height: 134px;
+    border-radius: 50px;
+}
+
+
+*\
